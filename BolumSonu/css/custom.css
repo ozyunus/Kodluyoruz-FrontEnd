@@ -1,0 +1,32 @@
+
+
+h1{
+font-family: 'PT Sunday', sunday;
+font-size:2.5em;
+text-align:center;
+color:#ffffff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}
+.area{
+color:#4c4c4c;
+text-align:center;
+vertical-align:middle;
+padding:19% 15% 0 15%;
+}
+
+#tr{
+font-family: 'PT Sunday', sunday;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+font-size:2em;
+}
+
+#en{
+//font-family: 'PT Serif', serif;
+font-family: 'PT Sunday', sunday;
+text-align:center;
+color:#4c4c4c;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+font-size:2em;
+
+}

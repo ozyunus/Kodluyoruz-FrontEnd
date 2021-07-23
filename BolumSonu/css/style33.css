@@ -1,0 +1,45 @@
+
+body{  }
+
+header{ min-height:50px; background:lightcyan; 
+
+
+
+font-family: 'Sunday', sunday;
+font-size:2em;
+text-align:center;
+min-height:100px;
+color:#ffffff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75); }
+
+footer{ min-height:50px; background:white; }
+
+/* Trick */
+body{
+ height: calc(100vh - 100px);
+ margin:0;	
+  display:flex; 
+  flex-direction:column; 
+}
+
+footer{
+  margin-top:auto; 
+  height:50px;
+ 
+}
+.footer-bg{
+	 background-color: red;
+	
+}
+
+#social {
+	position: absolute;
+	hight:60px;
+	width:100%;	
+	padding:20px;
+	float:left;
+	letter-spacing:5px;	
+	background-color: white;
+	text-align:center;
+	
+	  }

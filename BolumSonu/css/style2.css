@@ -1,0 +1,129 @@
+
+a { text-decoration: none}
+
+
+/* body{ height:100vh; margin:0; } */
+
+/* header{ min-height:50px; background:lightcyan; } */
+/* footer{ min-height:50px; background:PapayaWhip; } */
+
+/* /* Trick */ */
+/* body{  */
+  /* display:flex;  */
+  /* flex-direction:column;  */
+/* } */
+
+/* footer{ */
+  /* margin-top:auto;  */
+/* } */
+body{
+	margin:0;
+	padding:0;
+	background-color:gray;
+	font-family: 'Sunday', sunday;		
+	
+	
+}
+.bg{
+	background-color:gray;
+	/* height: calc(100vh - 50px); */
+	margin:0; height: 90vh;
+	display:flex;
+	flex-direction:column;
+}
+.body-ly{
+	
+}
+.footer {
+    
+    /* position: absolute; */
+     
+    /* bottom:0; */
+	/* width:100%; */
+	/* background-color:red;	 */
+	/* min-height:50px;  */
+	margin-top:auto;
+	height:10vh;
+	
+
+	
+
+}
+
+#social {
+	position: absolute;
+	hight:60px;
+	width:100%;	
+	padding:20px;
+	float:left;
+	letter-spacing:5px;	
+	background-color: white;
+	text-align:center;
+	
+	  }
+
+#container{
+	width:80%;
+	margin:auto;
+	height:auto;	
+}
+
+#bg {
+	width:auto;
+	height:auto;
+	position:relative;	
+	
+} 
+
+#tr {
+	
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;	
+	transform: tranlate(-50%,-50%);
+	
+	
+}
+
+#en {
+
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;	
+	transform: tranlate(-50%,-50%);
+	
+}
+
+header{
+margin-top:80px;	
+font-family: 'Sunday', sunday;
+font-size:2em;
+text-align:center;
+min-height:100px;
+color:#ffffff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#837E7D;
+  text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+  
+}
+.image{
+	max-width: 400px;
+	width:100%;
+
+}
