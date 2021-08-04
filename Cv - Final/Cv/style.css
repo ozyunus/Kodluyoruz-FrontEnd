@@ -1,0 +1,97 @@
+
+
+h1 {
+    color: #3f454d;
+    margin-top: 80px;
+    margin-left: 40px;   
+    font-weight:bold;
+    font-size: 24px;  
+}  
+.title {
+    color: #3f454d;    
+    margin-left: 40px;   
+    font-weight:bold;     
+    font-size: 25px;   
+}
+
+#photo {
+    width: 75%;      
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.social {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 00px;
+    height: auto;    
+    padding: 0.8%;
+    background-color: #3f454d;
+}
+
+body {
+    background-color: white;
+    color: #3f454d;
+    font-family: Ubuntu;
+
+}
+
+.content{
+    margin-left: 40px;    
+}
+
+a:visited, a:link{
+    color: #3f454d;
+    font-weight: bold;  
+}
+
+.line{
+    width:80%;
+    text-align:left;
+    margin-left:0;
+    color: #3f454d;
+}
+
+
+
+section{
+    margin-top: 25px;
+    width: 80%;
+    float: left;
+}
+aside{
+    width: 20%; 
+    float: left;
+}
+
+.project-content{
+    width: 10%;
+    float: left;    
+}
+
+.project-icon{
+    width: 90%;
+    padding: 25px;
+}
+
+.project-line{
+    border-style: dashed;
+    color: #3f454d;
+    width:60%;
+    text-align:left;
+}
+
+.about{
+    
+    text-align: center;  
+    font-size: 25px; 
+
+}
+
+.contact{
+    text-align: center;   
+}
+

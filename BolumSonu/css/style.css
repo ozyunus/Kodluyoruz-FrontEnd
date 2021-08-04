@@ -1,0 +1,65 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	
+	font-family: 'Sunday', sunday;	
+}
+
+#social {
+	hight:60px;
+	width:100%;
+	position: sticky;
+	buttom:0;
+	padding:20px;
+	float:left;
+	letter-spacing:5px;	
+	background-color: white;
+}
+
+#container{
+	width:80%;
+	margin:auto;
+	height:auto;	
+}
+
+#bg {
+	width:auto;
+	height:auto;
+	position:relative;	
+	background-color: black;
+} 
+
+#tr {
+	position:absolute;
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;
+	top:40%;
+	left:50%;
+	transform: tranlate(-50%,-50%);
+	
+}
+#en {
+	position:absolute;
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;
+	top:50%;
+	left:50%;
+	transform: tranlate(-50%,-50%);
+	
+}
+
+header{
+margin-top:80px;	
+font-family: 'PT Sunday', sunday;
+font-size:2em;
+text-align:center;
+
+color:#ffffff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}

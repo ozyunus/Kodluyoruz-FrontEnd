@@ -1,0 +1,58 @@
+
+body{  }
+
+header{ min-height:50px; background:#80d8ff; 
+
+
+
+font-family: 'Sunday', sunday;
+font-size:2em;
+text-align:center;
+min-height:100px;
+color:#ffffff;
+text-shadow:2px 2px 3px rgba(43, 42, 42, 0.75); }
+
+footer{ min-height:50px; background:white; }
+
+/* Trick */
+body{
+ height: calc(100vh - 100px);
+ margin:0;	
+  display:flex; 
+  flex-direction:column; 
+}
+
+#tr {	
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;	
+	transform: tranlate(-50%,-50%);	
+}
+
+#en {
+	font-family: 'Sunday', sunday;
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	font-size:2em;	
+	transform: tranlate(-50%,-50%);	
+}
+footer{
+  margin-top:auto; 
+  height:50px;
+ 
+}
+.footer-bg{
+	 background-color: red;
+	
+}
+
+#social {
+	position: absolute;
+	hight:60px;
+	width:100%;	
+	padding:20px;
+	float:left;
+	letter-spacing:5px;	
+	background-color: white;
+	text-align:center;
+	
+	  }
