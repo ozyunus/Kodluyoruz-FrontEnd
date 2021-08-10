@@ -1,0 +1,33 @@
+
+body{
+    margin: 0;
+    padding: 0;  
+    background-color: #e2e2e2;      
+}
+
+.top-bar {
+    width: 40%;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer{    
+    background-color: #ffffff; 
+    height: 125px;
+    width: 100%;     
+}
+
+.card{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
